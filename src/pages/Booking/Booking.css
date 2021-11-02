@@ -1,0 +1,132 @@
+.booking {
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.booking__description {
+  margin: 0 auto;
+  text-align: center;
+  width: 400px;
+}
+
+.booking__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email__form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.email__form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 570px;
+  margin: 10px auto;
+}
+.email__form__date {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 570px;
+  margin: 10px auto;
+}
+.email__form__date input {
+  width: 200px;
+}
+.email__form input {
+  width: 90%;
+  height: 30px;
+}
+.email__form textarea {
+  width: 90%;
+}
+
+.email__form button {
+  width: 100px;
+  height: 40px;
+  background-color: #0bbdf9;
+  color: white;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: all 0.3s ease-in;
+}
+.email__form button:hover {
+  background-color: #fff;
+  color: #0bbdf9;
+  border: 1px solid #0bbdf9;
+}
+.booking h2 {
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+}
+.firstform__container__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 20px;
+}
+.firstform__container__item input {
+  width: 250px;
+  height: 30px;
+}
+.booking__content h3 {
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.booking__description p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.booking__content__firstform {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+}
+.firstform__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .firstform__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .firstform__container input {
+    width: 110px;
+  }
+
+  .email__form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .email__form input {
+    width: 60%;
+  }
+  .email__form textarea {
+    width: 60%;
+    outline: black;
+  }
+  .email__form__date {
+    padding-left: 70px;
+  }
+}

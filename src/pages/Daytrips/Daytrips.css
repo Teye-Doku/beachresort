@@ -1,0 +1,105 @@
+.daytrips {
+  background-color: #f6f5ea;
+}
+.daytrips__showcase {
+  width: 100%;
+  background-color: #0bbdf9;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.daytrips__showcase h3 {
+  color: white;
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 35px;
+  font-weight: 400;
+}
+
+.daytrips__showcasepic {
+  position: relative;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  height: 450px;
+}
+.daytrips__showcasepic h1 {
+  color: #f6f5ea;
+}
+.daytrips__showcasepic img {
+  flex: 0.7;
+}
+.daytrips__showcasepic__text {
+  position: absolute;
+  top: 70px;
+  left: 200px;
+  background-color: #fff;
+  padding: 40px 40px 40px 60px;
+  width: 450px;
+  height: 200px;
+}
+
+.daytrips__showcasepic__text h2 {
+  font-family: "Roboto condensed", sans-serif;
+  font-weight: 500px;
+  font-size: 35px;
+}
+
+.daytrips__showcasepic__text p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.daytrips__info {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.daytrips__info h4 {
+  font-family: "Roboto condensed", sans-serif;
+  word-spacing: 4px;
+  font-size: 20px;
+}
+.daytrips__info h3 {
+  font-family: "Roboto condensed", sans-serif;
+  word-spacing: 4px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+.daytrips__info p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+ul li {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  margin: 10px 0;
+}
+@media screen and (max-width: 700px) {
+  .daytrips__showcase h3 {
+    font-size: 25px;
+    margin: 10px;
+  }
+
+  .daytrips__showcasepic {
+    width: 100%;
+    box-sizing: border-box;
+    height: 200px;
+  }
+  .daytrips__showcasepic img {
+    flex: 1;
+  }
+  .daytrips__showcasepic h1 {
+    display: none;
+  }
+  .daytrips__showcasepic__text {
+    position: absolute;
+    left: 40px;
+    width: 260px;
+    border-radius: 5px;
+  }
+  .daytrips__info {
+    margin-top: 200px;
+  }
+}

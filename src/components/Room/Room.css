@@ -1,0 +1,27 @@
+.room {
+  width: 35%;
+  height: 300px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.room img {
+  width: 100%;
+  object-fit: cover;
+}
+.room h3 {
+  font-family: "Roboto condensed", sans-serif;
+  font-size: 25px;
+}
+.room p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+@media screen and (max-width: 700px) {
+  .room {
+    width: 300px;
+  }
+  .room p {
+    margin-bottom: 20px;
+  }
+}

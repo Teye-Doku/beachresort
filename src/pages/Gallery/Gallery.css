@@ -1,0 +1,21 @@
+/* .gallery__first {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+} */
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.gallery img {
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  .gallery img {
+    width: 100%;
+    margin: 20px;
+  }
+}
